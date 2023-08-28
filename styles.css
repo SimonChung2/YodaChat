@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-family: 'Star Wars', sans-serif;
+    font-size: 5em;
+    color: #ffe81f;
+    text-align: center;
+    margin: 1em;
+}
+
+.instruction {
+    font-family: 'Star Wars', sans-serif;
+    text-align: center;
+}
+
+form {
+    position: sticky;
+    bottom: 10px;
+    width: 100vw;
+    margin-left: 5em;
+}
+
+textarea {
+    width: 80vw;
+    margin-top: 3em;
+}
+
+#submit_btn {
+    color: yellow;
+    padding: 20px 40px;
+    position: absolute;
+    bottom: 3em;
+    margin-left: 2em;
+}
+
+.user_input, .yoda_response {
+    font-family: 'Star Wars', sans-serif;
+    line-height: 1.5em;
+}
+
+.user_input {
+    padding: 2em;
+}
+
+.yoda_response {
+    color: yellow;
+    text-align: right;
+    padding: 2em;
+}
+
+
+
