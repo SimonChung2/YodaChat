@@ -1,5 +1,5 @@
 <?php
-$api_key = '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'; 
+$api_key = 'API_Key'; 
 
 $data = array(
     'model' => 'gpt-3.5-turbo',
