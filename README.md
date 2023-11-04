@@ -5,7 +5,7 @@ Yoda Chat is a web application that allows users to engage in conversations with
 ## `api_request.php`
 This PHP file is responsible for making requests to the OpenAI GPT-3.5 Turbo model to obtain Yoda's responses. Here's a breakdown of the key components in `api_request.php`:
 
-```php
+
 <?php
 $api_key = 'API_Key'; // Replace with your OpenAI API key
 
