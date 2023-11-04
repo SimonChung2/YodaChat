@@ -37,6 +37,7 @@ if ($result === FALSE) {
 
 $response_data = json_decode($result, true);
 echo $response_data['choices'][0]['message']['content'];
+
 ?>
 
 Replace 'API_Key' with your actual OpenAI API key to enable communication with the GPT-3.5 Turbo model.
